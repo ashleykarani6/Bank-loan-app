@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run loan.py
+web: python $loan-pay-app=$PORT -jar target/*.war
